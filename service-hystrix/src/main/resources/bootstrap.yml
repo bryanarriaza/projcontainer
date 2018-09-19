@@ -1,0 +1,10 @@
+spring:
+  config:
+    name: service-hystrix
+  application:
+    name: service-hystrix
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8888
+      failFast: true
